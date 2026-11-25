@@ -1,0 +1,12 @@
+{
+  "name": "anduril-diagrams",
+  "private": true,
+  "description": "Render and layout-check the Andúril 2 UI diagrams",
+  "scripts": {
+    "build": "make",
+    "check": "make check"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

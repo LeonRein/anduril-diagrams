@@ -1,0 +1,22 @@
+# Known layout findings that were reviewed visually and are acceptable.
+# Format: "kind | description" exactly as printed by tools/check.js.
+
+# Two-line labels inside starbursts / title block: only the invisible line
+# boxes overlap (Inter's ascent/descent), the glyphs do not touch.
+text×text | "Police★" / "Strobe"
+text×text | "Police" / "Strobe"
+text×text | "Tactical" / "Strobe"
+text×text | "Party" / "Strobe"
+text×text | "Bike" / "Flasher"
+text×text | "Andúril 2" / "Multi-Channel"
+text×text | "Multi-Channel" / "Simple UI"
+
+# Geometrically unavoidable: OFF -> 2C -> Ceiling has to end between the two
+# ends of the Ramp <-> 2C <-> Turbo loop on the same edge (same in the original).
+arrow×arrow | 2C[1192,793→1292,666] × 2C[1294,772→1294,642]
+
+# Simple UI: the "(momentary)" caption's bounding box reaches the inner 2C
+# pill's box, and both pills sit within a few px of OFF / the ramp bar.
+pill×pill | 2H / 2C
+pill×shape | 2H over ellipse @768,656
+pill×shape | 2C over rect @1060,490

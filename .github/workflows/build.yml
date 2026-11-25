@@ -1,0 +1,63 @@
+name: Build diagrams
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    # same Ubuntu release (and thus the same Inter font package) the diagrams were designed with
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install Inter font
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends fonts-inter
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Build SVG + PNG
+        run: make -B all
+
+      - name: Layout check
+        run: make check
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: diagrams
+          path: diagrams/
+
+      - name: Commit regenerated diagrams
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add diagrams
+          if git diff --cached --quiet; then
+            echo "Diagrams are up to date."
+          else
+            git commit -m "Regenerate diagrams"
+            git push
+          fi

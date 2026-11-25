@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1120" viewBox="0 0 2048 1120" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"><defs><marker id="ah" viewBox="0 0 12 12" refX="10.5" refY="6" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1.5 L11,6 L1,10.5 L3.6,6 Z" fill="#3F4B5E"/></marker><filter id="sh" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="1.5" stdDeviation="2.2" flood-color="#0F172A" flood-opacity="0.08"/></filter><filter id="sh2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.25"/></filter></defs><rect width="100%" height="100%" fill="#F3F5F9"/><rect class="grp" x="16.0" y="40.0" width="960.0" height="252.0" rx="18" fill="#16A34A" fill-opacity="0.06" stroke="#16A34A" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="7 6"/>
+<text x="38.0" y="78.0" font-size="24.00" font-weight="700" text-anchor="start" fill="#0F172A">Extra functions in this Simple UI</text>
+<text x="38.0" y="104.0" font-size="15.00" font-weight="400" text-anchor="start" fill="#64748B">Extended Simple UI — enabled by Fireflies on the E12 Eclipse</text>
+<circle cx="43.0" cy="137.7" r="3.04" fill="#334155"/>
+<text x="52.0" y="144.0" font-size="19.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Ramp → 3C:</tspan> toggle smooth / stepped</text>
+<text x="52.0" y="177.0" font-size="19.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">(6C if more than one channel is on)</tspan></text>
+<circle cx="43.0" cy="203.7" r="3.04" fill="#334155"/>
+<text x="52.0" y="210.0" font-size="19.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Ramp → 5H:</tspan> Sunset timer</text>
+<text x="52.0" y="243.0" font-size="19.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">(1 blink = 5 minutes)</tspan></text>
+<circle cx="43.0" cy="269.7" r="3.04" fill="#334155"/>
+<text x="52.0" y="276.0" font-size="19.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Off → 7C / 7H:</tspan> aux LED pattern / color</text>
+<circle cx="503.0" cy="137.7" r="3.04" fill="#334155"/>
+<text x="512.0" y="144.0" font-size="19.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Lockout → 7C / 7H:</tspan> aux pattern / color</text>
+<circle cx="503.0" cy="170.7" r="3.04" fill="#334155"/>
+<text x="512.0" y="177.0" font-size="19.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Batt Check → 1H:</tspan> Batt Color</text>
+<text x="512.0" y="210.0" font-size="19.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">(voltage shown as color)</tspan></text>
+<circle cx="503.0" cy="236.7" r="3.04" fill="#334155"/>
+<text x="512.0" y="243.0" font-size="19.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Batt Check → 2H:</tspan> Powerbank host</text>
+<circle cx="503.0" cy="269.7" r="3.04" fill="#334155"/>
+<text x="512.0" y="276.0" font-size="19.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">Strobes / blinkies: Advanced UI only</tspan></text>
+<rect class="card" x="1000.0" y="40.0" width="476.0" height="214.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
+<path d="M1000.5,45.0 Q1000.5,40.5 1012.0,40.5 H1464.0 Q1475.5,40.5 1475.5,45.0 V45.0 H1000.5 Z" fill="#64748B"/>
+<text x="1014.0" y="76.0" font-size="24.00" font-weight="650" text-anchor="start" fill="#0F172A">Actions</text>
+<text x="1014.0" y="116.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">1C:</tspan> Click</text>
+<text x="1014.0" y="146.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">1H:</tspan> Hold</text>
+<text x="1014.0" y="176.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">2C:</tspan> Click, Click</text>
+<text x="1014.0" y="206.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">2H:</tspan> Click, Hold</text>
+<text x="1232.0" y="116.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">nC / nH:</tspan> n presses</text>
+<text x="1232.0" y="146.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">Number entry in menus:</tspan></text>
+<text x="1232.0" y="176.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Click</tspan> = +1</text>
+<text x="1232.0" y="206.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Hold</tspan> = +10</text>
+<rect class="card" x="1504.0" y="40.0" width="528.0" height="494.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
+<path d="M1504.5,45.0 Q1504.5,40.5 1516.0,40.5 H2020.0 Q2031.5,40.5 2031.5,45.0 V45.0 H1504.5 Z" fill="#0F172A"/>
+<text x="1532.0" y="156.0" font-size="108.00" font-weight="800" text-anchor="start" fill="#0F172A" letter-spacing="-2">Andúril 2</text>
+<text x="1534.0" y="222.0" font-size="36.00" font-weight="700" text-anchor="start" fill="#0F172A">Fireflies E12 Eclipse</text>
+<text x="1534.0" y="276.0" font-size="44.00" font-weight="600" text-anchor="start" fill="#059669">Simple UI</text>
+<text x="1534.0" y="330.0" font-size="20.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Firmware:</tspan> fireflies-lume10 · model 0453</text>
+<text x="1534.0" y="360.0" font-size="20.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Release:</tspan> 2026-10-26 · <tspan font-weight="650" fill="#0F172A">Diagram:</tspan> 2026-11-25</text>
+<text x="1534.0" y="390.0" font-size="20.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Source:</tspan> github.com/ToyKeeper/anduril</text>
+<rect x="1524" y="428" width="488" height="92" rx="10" fill="#FFFBEB" stroke="#FCD34D"/>
+<text x="1540.0" y="457.0" font-size="17.50" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Simple UI defaults:</tspan> stepped, 10–130, 5 steps</text>
+<text x="1540.0" y="481.0" font-size="17.50" font-weight="400" text-anchor="start" fill="#334155">2C = ceiling (130), no turbo in Simple UI</text>
+<text x="1540.0" y="505.0" font-size="17.50" font-weight="400" text-anchor="start" fill="#334155">Only Main channel on → Ramp 3C = ramp style</text>
+<rect class="card" x="1504.0" y="550.0" width="528.0" height="212.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
+<path d="M1504.5,555.0 Q1504.5,550.5 1516.0,550.5 H2020.0 Q2031.5,550.5 2031.5,555.0 V555.0 H1504.5 Z" fill="#14B8A6"/>
+<text x="1768.0" y="590.0" font-size="24.00" font-weight="650" text-anchor="middle" fill="#0F172A">Aux LED Color for Cell Voltage</text>
+<g class="icon">
+<path d="M1570.00,624.46 A27.54,27.54 0 0 1 1584.24,628.43" fill="none" stroke="#EF4444" stroke-width="12.9"/>
+<path d="M1583.77,628.15 A27.54,27.54 0 0 1 1594.12,638.71" fill="none" stroke="#F97316" stroke-width="12.9"/>
+<path d="M1593.85,638.23 A27.54,27.54 0 0 1 1597.53,652.55" fill="none" stroke="#EAB308" stroke-width="12.9"/>
+<path d="M1597.54,652.00 A27.54,27.54 0 0 1 1593.57,666.24" fill="none" stroke="#84CC16" stroke-width="12.9"/>
+<path d="M1593.85,665.77 A27.54,27.54 0 0 1 1583.29,676.12" fill="none" stroke="#22C55E" stroke-width="12.9"/>
+<path d="M1583.77,675.85 A27.54,27.54 0 0 1 1569.45,679.53" fill="none" stroke="#14B8A6" stroke-width="12.9"/>
+<path d="M1570.00,679.54 A27.54,27.54 0 0 1 1555.76,675.57" fill="none" stroke="#06B6D4" stroke-width="12.9"/>
+<path d="M1556.23,675.85 A27.54,27.54 0 0 1 1545.88,665.29" fill="none" stroke="#3B82F6" stroke-width="12.9"/>
+<path d="M1546.15,665.77 A27.54,27.54 0 0 1 1542.47,651.45" fill="none" stroke="#6366F1" stroke-width="12.9"/>
+<path d="M1542.46,652.00 A27.54,27.54 0 0 1 1546.43,637.76" fill="none" stroke="#8B5CF6" stroke-width="12.9"/>
+<path d="M1546.15,638.23 A27.54,27.54 0 0 1 1556.71,627.88" fill="none" stroke="#D946EF" stroke-width="12.9"/>
+<path d="M1556.23,628.15 A27.54,27.54 0 0 1 1570.55,624.47" fill="none" stroke="#EC4899" stroke-width="12.9"/>
+</g>
+<g class="icon">
+<rect x="1640.0" y="618.0" width="340.0" height="70.0" rx="12.6" fill="#0F172A"/>
+<rect x="1979.0" y="639.0" width="9.8" height="28.0" rx="3.5" fill="#0F172A"/>
+<rect x="1647.0" y="625.0" width="54.7" height="56.0" fill="#E11D48"/>
+<rect x="1701.3" y="625.0" width="54.7" height="56.0" fill="#FACC15"/>
+<rect x="1755.7" y="625.0" width="54.7" height="56.0" fill="#22C55E"/>
+<rect x="1810.0" y="625.0" width="54.7" height="56.0" fill="#7DD3FC"/>
+<rect x="1864.3" y="625.0" width="54.7" height="56.0" fill="#2563EB"/>
+<rect x="1918.7" y="625.0" width="54.7" height="56.0" fill="#9333EA"/>
+<text x="1679.8" y="653.0" font-size="18.20" font-weight="700" text-anchor="middle" fill="#FFFFFF" transform="rotate(-90 1679.8 653.0)">LOW</text>
+<text x="1951.4" y="653.0" font-size="18.20" font-weight="700" text-anchor="middle" fill="#FFFFFF" transform="rotate(-90 1951.4 653.0)">FULL</text>
+<text x="1647.0" y="706.0" font-size="15.00" font-weight="600" text-anchor="middle" fill="#64748B">3.0</text>
+<text x="1701.3" y="706.0" font-size="15.00" font-weight="600" text-anchor="middle" fill="#64748B">3.3</text>
+<text x="1755.7" y="706.0" font-size="15.00" font-weight="600" text-anchor="middle" fill="#64748B">3.5</text>
+<text x="1810.0" y="706.0" font-size="15.00" font-weight="600" text-anchor="middle" fill="#64748B">3.7</text>
+<text x="1864.3" y="706.0" font-size="15.00" font-weight="600" text-anchor="middle" fill="#64748B">3.9</text>
+<text x="1926.9" y="706.0" font-size="15.00" font-weight="600" text-anchor="middle" fill="#64748B">4.1 V</text>
+</g>
+<text x="1768.0" y="736.0" font-size="16.00" font-weight="400" text-anchor="middle" fill="#334155">Standby: 6 colors as shown · post-off display: smooth shades</text>
+<rect class="card" x="206.0" y="400.0" width="492.0" height="60.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
+<text x="680.0" y="440.0" font-size="24.00" font-weight="650" text-anchor="end" fill="#0F172A">Factory Reset</text>
+<rect class="card" x="206.0" y="480.0" width="492.0" height="116.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
+<path d="M206.5,485.0 Q206.5,480.5 218.0,480.5 H686.0 Q697.5,480.5 697.5,485.0 V485.0 H206.5 Z" fill="#64748B"/>
+<text x="680.0" y="520.0" font-size="24.00" font-weight="650" text-anchor="end" fill="#0F172A">Version Check</text>
+<text x="680.0" y="550.0" font-size="17.00" font-weight="600" text-anchor="end" fill="#334155">MODEL-YYYY-MM-DD(-SINCE-DIRTY)</text>
+<text x="680.0" y="578.0" font-size="17.00" font-weight="400" text-anchor="end" fill="#64748B">E12 with this release: 0453-2026-10-26</text>
+<rect class="card" x="16.0" y="620.0" width="288.0" height="288.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
+<path d="M16.5,625.0 Q16.5,620.5 28.0,620.5 H292.0 Q303.5,620.5 303.5,625.0 V625.0 H16.5 Z" fill="#0EA5E9"/>
+<text x="30.0" y="656.0" font-size="24.00" font-weight="650" text-anchor="start" fill="#0F172A">Next Channel Mode</text>
+<text x="30.0" y="686.0" font-size="17.00" font-weight="400" text-anchor="start" fill="#64748B">(3C, enabled channels only)</text>
+<circle cx="37.0" cy="716.1" r="2.88" fill="#334155"/>
+<text x="46.0" y="722.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155">Main LEDs</text>
+<circle cx="37.0" cy="742.1" r="2.88" fill="#334155"/>
+<text x="46.0" y="748.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155">HSV color wheel</text>
+<circle cx="37.0" cy="768.1" r="2.88" fill="#334155"/>
+<text x="46.0" y="774.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155">Aux Red · Yellow</text>
+<circle cx="37.0" cy="794.1" r="2.88" fill="#334155"/>
+<text x="46.0" y="800.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155">Aux Green · Cyan</text>
+<circle cx="37.0" cy="820.1" r="2.88" fill="#334155"/>
+<text x="46.0" y="826.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155">Aux Blue · Purple</text>
+<circle cx="37.0" cy="846.1" r="2.88" fill="#334155"/>
+<text x="46.0" y="852.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155">Aux White</text>
+<text x="34.0" y="878.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">only Main is on at factory</tspan></text>
+<rect class="card" x="414.0" y="832.0" width="212.0" height="112.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
+<path d="M414.5,837.0 Q414.5,832.5 426.0,832.5 H614.0 Q625.5,832.5 625.5,837.0 V837.0 H414.5 Z" fill="#0EA5E9"/>
+<text x="520.0" y="878.0" font-size="24.00" font-weight="650" text-anchor="middle" fill="#0F172A">Change Hue</text>
+<text x="520.0" y="910.0" font-size="17.00" font-weight="400" text-anchor="middle" fill="#64748B">(HSV channel only)</text>
+<rect class="card" x="362.0" y="1016.0" width="342.0" height="62.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
+<text x="533.0" y="1056.0" font-size="24.00" font-weight="650" text-anchor="middle" fill="#0F172A">Switch to Advanced UI</text>
+<rect class="card" x="1504.0" y="782.0" width="528.0" height="106.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
+<path d="M1504.5,787.0 Q1504.5,782.5 1516.0,782.5 H2020.0 Q2031.5,782.5 2031.5,787.0 V787.0 H1504.5 Z" fill="#8B5CF6"/>
+<g class="icon">
+<defs><mask id="mm1"><rect x="1516.0" y="783.0" width="104.0" height="104.0" fill="#fff"/><circle cx="1582.3" cy="823.3" r="23.4" fill="#000"/></mask></defs>
+<circle cx="1568.0" cy="835.0" r="26.0" fill="#4338CA" mask="url(#mm1)"/>
+</g>
+<text x="1616.0" y="830.0" font-size="24.00" font-weight="650" text-anchor="start" fill="#0F172A">Momentary Moon</text>
+<text x="1616.0" y="860.0" font-size="16.50" font-weight="400" text-anchor="start" fill="#64748B">Lowest floor</text>
+<rect class="card" x="1504.0" y="916.0" width="528.0" height="112.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
+<path d="M1504.5,921.0 Q1504.5,916.5 1516.0,916.5 H2020.0 Q2031.5,916.5 2031.5,921.0 V921.0 H1504.5 Z" fill="#8B5CF6"/>
+<g class="icon">
+<defs><mask id="mm2"><rect x="1516.0" y="920.0" width="104.0" height="104.0" fill="#fff"/><circle cx="1582.3" cy="960.3" r="23.4" fill="#000"/></mask></defs>
+<circle cx="1568.0" cy="972.0" r="26.0" fill="#4338CA" mask="url(#mm2)"/>
+</g>
+<text x="1616.0" y="962.0" font-size="24.00" font-weight="650" text-anchor="start" fill="#0F172A">Momentary Low</text>
+<text x="1616.0" y="992.0" font-size="16.50" font-weight="400" text-anchor="start" fill="#64748B">Highest floor or manual memory</text>
+<defs><linearGradient id="rb3" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#FEF9C3"/><stop offset="0.45" stop-color="#FDE68A"/><stop offset="1" stop-color="#64748B"/></linearGradient></defs>
+<rect class="card" x="1060" y="490" width="144" height="434" rx="14" fill="url(#rb3)" stroke="#94A3B8" filter="url(#sh)"/>
+<text x="1132.0" y="522.0" font-size="19.00" font-weight="650" text-anchor="middle" fill="#0F172A">Ceiling</text>
+<text x="1132.0" y="912.0" font-size="19.00" font-weight="650" text-anchor="middle" fill="#FFFFFF">Floor</text>
+<text x="1118.0" y="708.0" font-size="32.00" font-weight="700" text-anchor="middle" fill="#0F172A" transform="rotate(-90 1118.0 708.0)">Ramp</text>
+<text x="1154.0" y="708.0" font-size="18.00" font-weight="500" text-anchor="middle" fill="#0F172A" transform="rotate(-90 1154.0 708.0)">2H Down / 1H Up</text>
+<line x1="1180" y1="545" x2="1180" y2="880" stroke="#0F172A" stroke-width="2" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect class="card" x="944" y="1020" width="174" height="54" rx="11" fill="#FFFFFF" stroke="#0F172A" stroke-width="2" filter="url(#sh)"/>
+<path d="M945,1031 Q945,1021 955,1021 H1022 V1073 H955 Q945,1073 945,1063 Z" fill="#0F172A"/>
+<rect x="1118" y="1036" width="7" height="22" rx="2" fill="#0F172A"/>
+<text x="983.0" y="1055.0" font-size="24.00" font-weight="700" text-anchor="middle" fill="#FFFFFF">Batt</text>
+<text x="1070.0" y="1055.0" font-size="24.00" font-weight="700" text-anchor="middle" fill="#0F172A">Check</text>
+<text x="1146.0" y="1040.0" font-size="16.50" font-weight="400" text-anchor="start" fill="#334155">Simple UI: displays voltage once</text>
+<text x="1146.0" y="1062.0" font-size="16.50" font-weight="400" text-anchor="start" fill="#334155">Advanced UI: displays voltage continuously</text>
+<text x="1146.0" y="1084.0" font-size="16.50" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">1H Batt Color · 2H Powerbank host</tspan></text>
+<path class="arr" data-id="a4" d="M448,710 L308,710" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a5" d="M594,710 L768,710" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
+<path class="arr" data-id="a6" d="M918,710 L1056,710" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
+<path class="arr" data-id="a7" d="M1208,710 L1314,710" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
+<path class="arr" data-id="a8" d="M306,790 C345,800 362,860 410,880" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a9" d="M814,660 C800,600 770,540 702,540" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a10" d="M826,658 C815,520 780,430 702,430" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a11" d="M840,656 C840,430 870,412 960,412 L1340,412 C1385,412 1392,440 1392,688" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a12" d="M852,657 C858,560 930,500 1056,496" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a13" d="M874,660 C935,625 990,540 1056,532" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a14" d="M1056,694 C1026,668 1026,600 1056,572" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
+<path class="arr" data-id="a15" d="M818,764 C805,900 790,1046 708,1046" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a16" d="M832,766 C832,960 870,1046 940,1046" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a17" d="M1392,748 C1392,940 1370,970 1300,970 L940,970 C866,970 848,930 848,768" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a18" d="M866,764 C870,900 935,920 1056,920" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a19" d="M1345,748 C1345,900 1300,920 1208,920" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a20" d="M1340,690 C1338,560 1300,500 1208,500" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a21" d="M1440,690 C1440,380 1420,360 1360,360 L230,360 C170,360 154,380 154,616" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a22" d="M1446,748 C1452,815 1468,835 1500,835" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a23" d="M1420,748 C1420,930 1450,972 1500,972" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect class="card" x="1316.0" y="690.0" width="152.0" height="58.0" rx="12" fill="#F5F3FF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
+<g class="icon">
+<path d="M1335.0,715.6 v-6.2 a9.0,9.0 0 0 1 17.9,0 v6.2" fill="none" stroke="#5B21B6" stroke-width="3.6" stroke-linecap="round"/>
+<rect x="1330.0" y="714.8" width="28.0" height="20.2" rx="3.4" fill="#5B21B6"/>
+<circle cx="1344.0" cy="723.2" r="2.8" fill="#FFFFFF"/>
+<rect x="1342.9" y="723.7" width="2.2" height="5.6" rx="0.8" fill="#FFFFFF"/>
+</g>
+<text x="1368.0" y="716.0" font-size="21.00" font-weight="700" text-anchor="start" fill="#0F172A">Lockout</text>
+<text x="1368.0" y="738.0" font-size="17.00" font-weight="600" text-anchor="start" fill="#6D28D9">Mode</text>
+<defs><radialGradient id="ng24" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#334155"/><stop offset="1" stop-color="#0B1220"/></radialGradient></defs>
+<ellipse cx="520.0" cy="710.0" rx="77.0" ry="57.0" fill="none" stroke="#FACC15" stroke-width="4" stroke-opacity="0.45"/>
+<ellipse class="card node" cx="520.0" cy="710.0" rx="74.0" ry="54.0" fill="url(#ng24)" filter="url(#sh2)"/>
+<text x="520.0" y="728.0" font-size="50.00" font-weight="800" text-anchor="middle" fill="#FFFFFF" letter-spacing="0.5">ON</text>
+<defs><radialGradient id="ng25" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#334155"/><stop offset="1" stop-color="#0B1220"/></radialGradient></defs>
+<ellipse class="card node" cx="844.0" cy="710.0" rx="76.0" ry="54.0" fill="url(#ng25)" filter="url(#sh2)"/>
+<text x="844.0" y="728.0" font-size="50.00" font-weight="800" text-anchor="middle" fill="#FFFFFF" letter-spacing="0.5">OFF</text>
+<text x="2036.0" y="1112.0" font-size="14.00" font-weight="400" text-anchor="end" fill="#64748B">Layout after the original Andúril 2 diagrams (lemmy.world/post/1038159) · redrawn &amp; updated 2026-11</text>
+<g class="pillg" data-id="a4" data-label="3C">
+<rect x="354.6" y="696.0" width="46.7" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="378.0" y="717.2" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">3C</text>
+</g>
+<g class="pillg" data-id="a5" data-label="1C">
+<rect x="659.8" y="696.0" width="42.4" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="681.0" y="717.2" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">1C</text>
+</g>
+<g class="pillg" data-id="a6" data-label="1C">
+<rect x="965.8" y="696.0" width="42.4" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="987.0" y="717.2" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">1C</text>
+</g>
+<g class="pillg" data-id="a7" data-label="4C">
+<rect x="1237.3" y="696.0" width="47.3" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="1261.0" y="717.2" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">4C</text>
+</g>
+<g class="pillg" data-id="a8" data-label="3H">
+<rect x="328.5" y="813.9" width="46.9" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="351.9" y="835.1" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">3H</text>
+</g>
+<g class="pillg" data-id="a9" data-label="15+C">
+<rect x="732.4" y="551.0" width="68.8" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="766.8" y="572.2" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">15+C</text>
+</g>
+<g class="pillg" data-id="a10" data-label="13H">
+<rect x="743.4" y="449.9" width="55.5" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="771.1" y="471.1" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">13H</text>
+</g>
+<g class="pillg" data-id="a11" data-label="4C">
+<rect x="1136.3" y="398.0" width="47.3" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="1160.0" y="419.2" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">4C</text>
+</g>
+<g class="pillg" data-id="a12" data-label="2C">
+<rect x="920.9" y="506.0" width="46.4" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="944.1" y="527.2" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">2C</text>
+</g>
+<g class="pillg" data-id="a13" data-label="2H">
+<rect x="875.1" y="629.4" width="46.5" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="898.4" y="650.6" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">2H</text>
+<text x="926.7" y="649.4" font-size="14.40" font-weight="500" text-anchor="start" fill="#64748B" stroke="#F3F5F9" stroke-width="4" stroke-linejoin="round" paint-order="stroke">(momentary)</text>
+</g>
+<g class="pillg" data-id="a14" data-label="2C">
+<rect x="1017.6" y="658.2" width="46.4" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="1040.8" y="679.4" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">2C</text>
+</g>
+<g class="pillg" data-id="a15" data-label="10H">
+<rect x="764.9" y="927.2" width="56.1" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="792.9" y="948.4" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">10H</text>
+</g>
+<g class="pillg" data-id="a16" data-label="3C">
+<rect x="844.6" y="982.5" width="46.7" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="867.9" y="1003.7" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">3C</text>
+</g>
+<g class="pillg" data-id="a17" data-label="3C">
+<rect x="1076.6" y="956.0" width="46.7" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="1100.0" y="977.2" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">3C</text>
+</g>
+<g class="pillg" data-id="a18" data-label="1H">
+<rect x="921.3" y="892.1" width="42.6" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="942.6" y="913.3" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">1H</text>
+</g>
+<g class="pillg" data-id="a19" data-label="4H">
+<rect x="1291.9" y="871.7" width="47.5" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="1315.6" y="892.9" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">4H</text>
+</g>
+<g class="pillg" data-id="a20" data-label="5C">
+<rect x="1302.7" y="571.1" width="46.6" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="1326.0" y="592.3" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">5C</text>
+</g>
+<g class="pillg" data-id="a21" data-label="3H">
+<rect x="731.3" y="346.0" width="117.5" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="740.9" y="367.2" font-size="20.00" font-weight="700" text-anchor="start" fill="#0F172A">3H</text>
+<text x="774.7" y="366.6" font-size="14.40" font-weight="500" text-anchor="start" fill="#64748B">(to cycle)</text>
+</g>
+<g class="pillg" data-id="a22" data-label="1H">
+<rect x="1435.6" y="789.9" width="42.6" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="1456.9" y="811.1" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">1H</text>
+</g>
+<g class="pillg" data-id="a23" data-label="2H">
+<rect x="1407.0" y="876.4" width="46.5" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="1430.3" y="897.6" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">2H</text>
+</g></svg>
