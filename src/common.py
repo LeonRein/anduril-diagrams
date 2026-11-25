@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-only
 """Shared SVG helpers for the Anduril diagrams."""
 import math, os, re
 from PIL import ImageFont

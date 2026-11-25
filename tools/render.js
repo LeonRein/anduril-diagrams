@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-only
 // Render an SVG to PNG with headless Chromium.
 // usage: node tools/render.js in.svg out.png [scale]
 const { chromium } = require('playwright');

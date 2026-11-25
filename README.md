@@ -57,6 +57,15 @@ uploads the diagrams as a build artifact.
 
 ## Credits
 
+- Layout and much of the wording are based on the
+  [Andúril 2 UI diagrams by containerfan](https://github.com/containerfan/anduril2-diagrams)
+  (GPL-3.0, revision 2023-10-03), which were in turn inspired by
+  [Lux-Perpetua's diagram on BLF](https://budgetlightforum.com/node/76941).
+  This project redraws them from scratch with a new look, and corrects and
+  extends the content for current firmware.
 - Firmware and documentation: [Andúril](https://github.com/ToyKeeper/anduril) by Selene ToyKeeper (GPL-3.0).
-- Layout after the original Andúril 2 diagrams posted at
-  [lemmy.world/post/1038159](https://lemmy.world/post/1038159). These diagrams are an independent redraw.
+- Font: [Inter](https://rsms.me/inter/) by Rasmus Andersson (SIL Open Font License); not included here.
+
+## License
+
+GPL-3.0, the same as the diagrams this work is based on. See [LICENSE](LICENSE).

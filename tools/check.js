@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-only
 // Geometric layout checker for the generated SVGs.
 //
 // usage: node tools/check.js [--allow tools/layout-allowlist.txt] file.svg ...

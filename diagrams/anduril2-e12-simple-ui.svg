@@ -174,7 +174,7 @@
 <defs><radialGradient id="ng25" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#334155"/><stop offset="1" stop-color="#0B1220"/></radialGradient></defs>
 <ellipse class="card node" cx="844.0" cy="710.0" rx="76.0" ry="54.0" fill="url(#ng25)" filter="url(#sh2)"/>
 <text x="844.0" y="728.0" font-size="50.00" font-weight="800" text-anchor="middle" fill="#FFFFFF" letter-spacing="0.5">OFF</text>
-<text x="2036.0" y="1112.0" font-size="14.00" font-weight="400" text-anchor="end" fill="#64748B">Layout after the original Andúril 2 diagrams (lemmy.world/post/1038159) · redrawn &amp; updated 2026-11</text>
+<text x="2036.0" y="1112.0" font-size="14.00" font-weight="400" text-anchor="end" fill="#64748B">Based on the Andúril 2 diagrams by containerfan (github.com/containerfan/anduril2-diagrams) · redrawn &amp; updated 2026-11 · GPL-3.0</text>
 <g class="pillg" data-id="a4" data-label="3C">
 <rect x="354.6" y="696.0" width="46.7" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="378.0" y="717.2" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">3C</text>

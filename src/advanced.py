@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-only
 import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -591,7 +592,7 @@ S.node(679, 821, 52, 38, "ON", size=34, glow="#FACC15")
 S.node(1155, 821, 54, 38, "OFF", size=34)
 
 # ---- small footer -------------------------------------------------------
-S.text(1988, 1340, "Layout after the original Andúril 2 diagrams (lemmy.world/post/1038159) · redrawn & updated 2026-11",
+S.text(1988, 1340, "Based on the Andúril 2 diagrams by containerfan (github.com/containerfan/anduril2-diagrams) · redrawn & updated 2026-11 · GPL-3.0",
        size=10, fill=MUTED, anchor="end")
 
 open(sys.argv[1], "w").write(S.render())
