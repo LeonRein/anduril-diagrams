@@ -201,6 +201,7 @@ S.para(1455, 78, [
     "**Click** = +1",
     "**Hold** = +10",
 ], size=FS, lh=LH)
+S.text(1319, 158, "__Ovals & lock = modes · boxes = actions / menus__", size=12)
 
 # ---- Misc Config ---------------------------------------------------------
 S.card(1305, 182, 313, 262, "Misc Config", "config", sub=None)
@@ -317,13 +318,26 @@ S.text(1715, 950, "Highest floor of smooth vs. stepped,", size=12.5, fill=BODY)
 S.text(1715, 965, "or manual memory if set", size=12.5, fill=BODY)
 
 # ---- Left: tint / turbo / next channel ------------------------------------
-S.card(12, 683, 195, 117, None, "mode")
-for i, t in enumerate(V(["Tint Ramp", "OR", "Momentary", "Turbo"], ["Momentary", "Turbo", "OR", "HSV: hue"])):
-    S.text(109, 712 + i * 24, t, size=18 if t != "OR" else 13, weight=650 if t != "OR" else 700,
-           fill=INK if t != "OR" else MUTED, anchor="middle")
-S.card(12, 823, 195, 72, None, "mode")
-S.text(109, 853, "Momentary", size=18, weight=650, fill=INK, anchor="middle")
-S.text(109, 877, "Turbo", size=18, weight=650, fill=INK, anchor="middle")
+S.card(12, 683, 232, 212, "Hold in Ramp", "mode", tsize=18)
+S.para(26, 736, V([
+    "**3H:** Momentary Turbo",
+    "   __or tint ramp, if the current__",
+    "   __channel has a tint to ramp__",
+    "**4H:** Momentary Turbo",
+    "   __(lights with tint ramping)__",
+    "**8H★:** Aux brightness, 9 steps",
+    "   __(on an aux channel)__",
+    "   __= max. of the aux ramp__",
+], [
+    "**3H:** Momentary Turbo",
+    "   __HSV channel: rotate hue__",
+    "**4H:** Momentary Turbo",
+    "**8H:** Aux brightness, 9 steps",
+    "   __only on an aux / HSV channel__",
+    "   __fixed colors: sets brightness__",
+    "   __(ramp has no effect there)__",
+    "   __HSV: sets max., ramp dims__",
+]), size=FS, lh=17.6)
 
 S.card(282, 682, 214, 196, "Next Channel Mode", "mode", tsize=18)
 S.text(296, 729, V("(3C to cycle)", "(3C, enabled channels only)"), size=12.5, fill=MUTED)
@@ -348,13 +362,10 @@ else:
         "   Cyan · Blue · Purple · White",
     ], size=FS, lh=17)
 S.add('<line x1="296" y1="826" x2="482" y2="826" stroke="%s"/>' % STROKE)
-S.para(296, 845, V([
-    "**8H** on an aux channel:",
-    "aux brightness (9 steps)★",
-], [
-    "**8H** on an aux / HSV channel:",
-    "aux brightness (9 steps)",
-]), size=12.5, lh=16)
+S.para(296, 845, [
+    "__Switches to the next enabled__",
+    "__channel and stays in Ramp.__",
+], size=12.5, lh=16)
 
 # ---- ON / OFF / ramp / lockout ------------------------------------------
 # Switch to Simple UI
@@ -423,7 +434,7 @@ S.para(588, 1013, [
     "**7C:** Off → Low → High → Breathing★ →",
     "Fast Breathing★ → Heavy Breathing★ →",
     "Blinking → 2× Blink → 1× Blink",
-    "**8H★:** Low / High brightness __(set Low or High first)__",
+    "**8H★:** brightness of Low / High __(Breathing = High)__",
 ], size=12.5, lh=15.5)
 
 S.card(574, 1082, 324, 108, None, "aux")
@@ -530,8 +541,7 @@ S.arrow("M688,783 C698,690 716,600 733,514", "7H", (722, 560))
 S.arrow("M703,786 C712,700 735,640 764,626", "6C", (742, 642))
 S.arrow("M724,806 C770,770 850,748 880,701", "3C", (790, 770), sub="(1 channel)", subpos="inside")
 S.arrow("M627,821 L498,821", "3C", (560, 821))
-S.arrow("M645,852 C560,915 300,915 209,868", "4H", (430, 901))
-S.arrow("M281,743 L209,743", "3H", (245, 743))
+S.arrow("M645,852 C560,915 330,915 246,872", "3H · 4H · 8H", (430, 901))
 S.arrow("M736,821 L1099,821", "1C", (917, 821), start=True)
 S.arrow("M706,854 C722,880 755,882 784,881", "5C", (742, 878))
 

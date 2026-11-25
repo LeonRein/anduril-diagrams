@@ -18,8 +18,8 @@
 | # | Wo | Neu | Auf der E12? |
 |---|----|-----|--------------|
 | 5 | Off / Lockout → 7C | Aux-Muster: Off → Low → High → **Breathing → Fast Breathing → Heavy Breathing** → Blinking → **2× Blink → 1× Blink** | ja (Breathing nur mit AW2016-Chip) |
-| 6 | Off → **8H** | Helligkeit von Aux „Low“ bzw. „High“ (14 Stufen) | ja |
-| 7 | Ramp → **8H** (auf Aux-Kanal) | Aux-Helligkeit im eingeschalteten Zustand (9 Stufen) | ja |
+| 6 | Off → **8H** | Helligkeit des Standby-Musters: bei „Low“ die Low-Stufe, bei High/Breathing/Blinking die High-Stufe (14 Stufen) | ja |
+| 7 | Ramp → **8H** (auf Aux-Kanal) | Aux-Helligkeit im eingeschalteten Zustand (9 Stufen). Feste Aux-Farben: das *ist* ihre Helligkeit (die Rampe wirkt dort nicht); HSV-Kanal: Maximum, die Rampe dimmt darunter | ja |
 | 8 | Batt Check → **1H** | Batt Color: Spannung als Farbe statt Ziffern | ja |
 | 9 | Batt Color → **8H** | POVD-/Batt-Color-Helligkeit | ja |
 | 10 | Batt Check → **2H** | Powerbank-Host-Modus (USB‑C laden anderer Geräte) | ja |
@@ -35,6 +35,10 @@ Pfeile zwischen ON/OFF/Ramp/Lockout, Strobe-Reihenfolge (Party → Tactical → 
 
 ## Werkseinstellungen der E12 (zur Info)
 Simple UI aktiv · gestufte Rampe (Simple UI: 10–130, 5 Stufen) · 2C geht im Advanced UI auf volle Leistung · nur Hauptkanal aktiv · Aux Off: Breathing + Rainbow · Aux Lockout: Fast Breathing + Voltage · POVD 4 s · Temperaturlimit 50 °C · Level 150 = reine FET‑Turbostufe.
+
+## Darstellung
+- 3H / 4H / 8H werden im Ramp-Modus gedrückt; ihre Wirkung hängt nur vom aktiven Kanal ab. Deshalb gehen sie im Diagramm direkt von ON aus (Kasten „Hold in Ramp“), nicht vom Kasten „Next Channel Mode“. 3C schaltet nur den Kanal um, die Lampe bleibt im Ramp-Modus.
+- Ovale und das Schloss sind Modi, Kästen sind Aktionen oder Menüs.
 
 ## Varianten der Diagramme
 - `anduril2-e12-*`: zugeschnitten auf die Fireflies E12 Eclipse (Lume10, 0453): echte Kanalliste (Main, HSV, 7 Aux-Farben), 3H = Momentary Turbo bzw. Farbton im HSV-Kanal, Werkseinstellungen, Tactical-Slots 153–156 ausgeschrieben, keine Hinweise auf Mehrkanal-/200%-Funktionen.

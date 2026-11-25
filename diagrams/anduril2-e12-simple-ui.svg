@@ -87,7 +87,7 @@
 <rect class="card" x="16.0" y="620.0" width="288.0" height="288.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
 <path d="M16.5,625.0 Q16.5,620.5 28.0,620.5 H292.0 Q303.5,620.5 303.5,625.0 V625.0 H16.5 Z" fill="#0EA5E9"/>
 <text x="30.0" y="656.0" font-size="24.00" font-weight="650" text-anchor="start" fill="#0F172A">Next Channel Mode</text>
-<text x="30.0" y="686.0" font-size="17.00" font-weight="400" text-anchor="start" fill="#64748B">(3C, enabled channels only)</text>
+<text x="30.0" y="686.0" font-size="17.00" font-weight="400" text-anchor="start" fill="#64748B">(3C to cycle, stays in Ramp)</text>
 <circle cx="37.0" cy="716.1" r="2.88" fill="#334155"/>
 <text x="46.0" y="722.0" font-size="18.00" font-weight="400" text-anchor="start" fill="#334155">Main LEDs</text>
 <circle cx="37.0" cy="742.1" r="2.88" fill="#334155"/>
@@ -142,7 +142,7 @@
 <path class="arr" data-id="a5" d="M594,710 L768,710" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
 <path class="arr" data-id="a6" d="M918,710 L1056,710" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
 <path class="arr" data-id="a7" d="M1208,710 L1314,710" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
-<path class="arr" data-id="a8" d="M306,790 C345,800 362,860 410,880" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a8" d="M520,768 L520,830" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
 <path class="arr" data-id="a9" d="M814,660 C800,600 770,540 702,540" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
 <path class="arr" data-id="a10" d="M826,658 C815,520 780,430 702,430" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
 <path class="arr" data-id="a11" d="M840,656 C840,430 870,412 960,412 L1340,412 C1385,412 1392,440 1392,688" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
@@ -192,8 +192,8 @@
 <text x="1261.0" y="717.2" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">4C</text>
 </g>
 <g class="pillg" data-id="a8" data-label="3H">
-<rect x="328.5" y="813.9" width="46.9" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
-<text x="351.9" y="835.1" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">3H</text>
+<rect x="496.6" y="785.0" width="46.9" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="520.0" y="806.2" font-size="20.00" font-weight="700" text-anchor="middle" fill="#0F172A">3H</text>
 </g>
 <g class="pillg" data-id="a9" data-label="15+C">
 <rect x="732.4" y="551.0" width="68.8" height="28.0" rx="14.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>

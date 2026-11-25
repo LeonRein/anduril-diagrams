@@ -211,6 +211,7 @@
 <text x="1455.0" y="95.6" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">Number entry in menus:</tspan></text>
 <text x="1455.0" y="113.2" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Click</tspan> = +1</text>
 <text x="1455.0" y="130.8" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Hold</tspan> = +10</text>
+<text x="1319.0" y="158.0" font-size="12.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">Ovals &amp; lock = modes · boxes = actions / menus</tspan></text>
 <rect class="card" x="1305.0" y="182.0" width="313.0" height="262.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
 <path d="M1305.5,187.0 Q1305.5,182.5 1317.0,182.5 H1606.0 Q1617.5,182.5 1617.5,187.0 V187.0 H1305.5 Z" fill="#6366F1"/>
 <text x="1319.0" y="212.0" font-size="18.00" font-weight="650" text-anchor="start" fill="#0F172A">Misc Config</text>
@@ -368,16 +369,17 @@
 <text x="1715.0" y="930.0" font-size="18.00" font-weight="650" text-anchor="start" fill="#0F172A">Momentary Low</text>
 <text x="1715.0" y="950.0" font-size="12.50" font-weight="400" text-anchor="start" fill="#334155">Highest floor of smooth vs. stepped,</text>
 <text x="1715.0" y="965.0" font-size="12.50" font-weight="400" text-anchor="start" fill="#334155">or manual memory if set</text>
-<rect class="card" x="12.0" y="683.0" width="195.0" height="117.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
-<path d="M12.5,688.0 Q12.5,683.5 24.0,683.5 H195.0 Q206.5,683.5 206.5,688.0 V688.0 H12.5 Z" fill="#0EA5E9"/>
-<text x="109.0" y="712.0" font-size="18.00" font-weight="650" text-anchor="middle" fill="#0F172A">Momentary</text>
-<text x="109.0" y="736.0" font-size="18.00" font-weight="650" text-anchor="middle" fill="#0F172A">Turbo</text>
-<text x="109.0" y="760.0" font-size="13.00" font-weight="700" text-anchor="middle" fill="#64748B">OR</text>
-<text x="109.0" y="784.0" font-size="18.00" font-weight="650" text-anchor="middle" fill="#0F172A">HSV: hue</text>
-<rect class="card" x="12.0" y="823.0" width="195.0" height="72.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
-<path d="M12.5,828.0 Q12.5,823.5 24.0,823.5 H195.0 Q206.5,823.5 206.5,828.0 V828.0 H12.5 Z" fill="#0EA5E9"/>
-<text x="109.0" y="853.0" font-size="18.00" font-weight="650" text-anchor="middle" fill="#0F172A">Momentary</text>
-<text x="109.0" y="877.0" font-size="18.00" font-weight="650" text-anchor="middle" fill="#0F172A">Turbo</text>
+<rect class="card" x="12.0" y="683.0" width="232.0" height="212.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
+<path d="M12.5,688.0 Q12.5,683.5 24.0,683.5 H232.0 Q243.5,683.5 243.5,688.0 V688.0 H12.5 Z" fill="#0EA5E9"/>
+<text x="26.0" y="713.0" font-size="18.00" font-weight="650" text-anchor="start" fill="#0F172A">Hold in Ramp</text>
+<text x="26.0" y="736.0" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">3H:</tspan> Momentary Turbo</text>
+<text x="38.0" y="753.6" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">HSV channel: rotate hue</tspan></text>
+<text x="26.0" y="771.2" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">4H:</tspan> Momentary Turbo</text>
+<text x="26.0" y="788.8" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">8H:</tspan> Aux brightness, 9 steps</text>
+<text x="38.0" y="806.4" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">only on an aux / HSV channel</tspan></text>
+<text x="38.0" y="824.0" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">fixed colors: sets brightness</tspan></text>
+<text x="38.0" y="841.6" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">(ramp has no effect there)</tspan></text>
+<text x="38.0" y="859.2" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">HSV: sets max., ramp dims</tspan></text>
 <rect class="card" x="282.0" y="682.0" width="214.0" height="196.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
 <path d="M282.5,687.0 Q282.5,682.5 294.0,682.5 H484.0 Q495.5,682.5 495.5,687.0 V687.0 H282.5 Z" fill="#0EA5E9"/>
 <text x="296.0" y="712.0" font-size="18.00" font-weight="650" text-anchor="start" fill="#0F172A">Next Channel Mode</text>
@@ -390,8 +392,8 @@
 <text x="308.0" y="786.0" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155">Aux Red · Yellow · Green ·</text>
 <text x="308.0" y="803.0" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155">Cyan · Blue · Purple · White</text>
 <line x1="296" y1="826" x2="482" y2="826" stroke="#D5DCE6"/>
-<text x="296.0" y="845.0" font-size="12.50" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">8H</tspan> on an aux / HSV channel:</text>
-<text x="296.0" y="861.0" font-size="12.50" font-weight="400" text-anchor="start" fill="#334155">aux brightness (9 steps)</text>
+<text x="296.0" y="845.0" font-size="12.50" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">Switches to the next enabled</tspan></text>
+<text x="296.0" y="861.0" font-size="12.50" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">channel and stays in Ramp.</tspan></text>
 <rect class="card" x="847.0" y="752.0" width="193.0" height="40.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
 <text x="943.0" y="778.0" font-size="18.00" font-weight="650" text-anchor="middle" fill="#0F172A">Switch to Simple UI</text>
 <defs><linearGradient id="rb4" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#FEF9C3"/><stop offset="0.45" stop-color="#FDE68A"/><stop offset="1" stop-color="#64748B"/></linearGradient></defs>
@@ -472,7 +474,7 @@
 <text x="588.0" y="1013.0" font-size="12.50" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">7C:</tspan> Off → Low → High → Breathing →</text>
 <text x="588.0" y="1028.5" font-size="12.50" font-weight="400" text-anchor="start" fill="#334155">Fast Breathing → Heavy Breathing →</text>
 <text x="588.0" y="1044.0" font-size="12.50" font-weight="400" text-anchor="start" fill="#334155">Blinking → 2× Blink → 1× Blink</text>
-<text x="588.0" y="1059.5" font-size="12.50" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">8H:</tspan> Low / High brightness <tspan fill="#64748B">(set Low or High first)</tspan></text>
+<text x="588.0" y="1059.5" font-size="12.50" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">8H:</tspan> brightness of Low / High <tspan fill="#64748B">(Breathing = High)</tspan></text>
 <rect class="card" x="574.0" y="1082.0" width="324.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
 <path d="M574.5,1087.0 Q574.5,1082.5 586.0,1082.5 H886.0 Q897.5,1082.5 897.5,1087.0 V1087.0 H574.5 Z" fill="#14B8A6"/>
 <g class="icon">
@@ -614,38 +616,37 @@
 <path class="arr" data-id="a25" d="M703,786 C712,700 735,640 764,626" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
 <path class="arr" data-id="a26" d="M724,806 C770,770 850,748 880,701" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
 <path class="arr" data-id="a27" d="M627,821 L498,821" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a28" d="M645,852 C560,915 300,915 209,868" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a29" d="M281,743 L209,743" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a30" d="M736,821 L1099,821" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
-<path class="arr" data-id="a31" d="M706,854 C722,880 755,882 784,881" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a32" d="M1106,806 C1080,785 1072,772 1042,772" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a33" d="M1110,843 C1050,872 990,880 932,881" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a34" d="M1114,848 C1080,930 1000,946 900,946 L700,946 C620,946 600,940 549,940" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a35" d="M1128,854 C1115,935 1000,925 992,985 C988,1010 950,1018 900,1018" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a36" d="M1136,857 C1125,945 1006,935 1003,1000 C1000,1070 970,1126 900,1128" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a37" d="M1143,858 C1132,950 1013,945 1012,1010 L1012,1080 C1012,1200 975,1236 900,1236" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a38" d="M1150,859 C1140,955 1022,955 1020,1020 L1020,1100 C1020,1250 980,1303 900,1303" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a39" d="M1158,859 C1158,955 1180,976 1250,976 L1385,976 C1425,976 1432,995 1432,1027" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a40" d="M1172,855 C1185,900 1230,906 1293,906" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a41" d="M1204,812 C1240,792 1265,783 1293,783" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
-<path class="arr" data-id="a42" d="M1192,793 C1212,720 1250,672 1293,666" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a43" d="M1178,786 C1186,690 1232,632 1293,626" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a44" d="M1294,772 C1250,745 1250,668 1294,642" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
-<path class="arr" data-id="a45" d="M1164,783 C1168,620 1200,590 1300,590 L1450,590 C1505,590 1516,640 1516,798" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a46" d="M1151,783 C1150,595 1180,569 1260,569 L1400,569 C1437,569 1437,520 1437,448" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a47" d="M1126,790 C1105,700 1048,580 1000,514" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a48" d="M1141,785 C1130,700 1115,600 1112,504" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a49" d="M1157,388 L1157,338" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a50" d="M1534,800 L1534,560" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a51" d="M1564,800 Q1574,792 1574,775 L1574,592 Q1574,570 1596,570 L1639,570" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a52" d="M1571,813 L1639,641" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a53" d="M1571,823 L1639,756" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a54" d="M1571,833 L1639,861" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a55" d="M1571,842 L1639,940" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a56" d="M1476,845 C1470,898 1450,906 1395,906" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a57" d="M1395,783 C1430,786 1445,812 1461,820" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
-<path class="arr" data-id="a58" d="M1476,801 C1470,700 1450,666 1395,666" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
-<path class="arr" data-id="a59" d="M1516,846 C1516,930 1430,940 1320,940 C1200,940 1170,922 1166,861" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a28" d="M645,852 C560,915 330,915 246,872" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a29" d="M736,821 L1099,821" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
+<path class="arr" data-id="a30" d="M706,854 C722,880 755,882 784,881" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a31" d="M1106,806 C1080,785 1072,772 1042,772" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a32" d="M1110,843 C1050,872 990,880 932,881" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a33" d="M1114,848 C1080,930 1000,946 900,946 L700,946 C620,946 600,940 549,940" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a34" d="M1128,854 C1115,935 1000,925 992,985 C988,1010 950,1018 900,1018" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a35" d="M1136,857 C1125,945 1006,935 1003,1000 C1000,1070 970,1126 900,1128" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a36" d="M1143,858 C1132,950 1013,945 1012,1010 L1012,1080 C1012,1200 975,1236 900,1236" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a37" d="M1150,859 C1140,955 1022,955 1020,1020 L1020,1100 C1020,1250 980,1303 900,1303" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a38" d="M1158,859 C1158,955 1180,976 1250,976 L1385,976 C1425,976 1432,995 1432,1027" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a39" d="M1172,855 C1185,900 1230,906 1293,906" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a40" d="M1204,812 C1240,792 1265,783 1293,783" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
+<path class="arr" data-id="a41" d="M1192,793 C1212,720 1250,672 1293,666" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a42" d="M1178,786 C1186,690 1232,632 1293,626" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a43" d="M1294,772 C1250,745 1250,668 1294,642" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
+<path class="arr" data-id="a44" d="M1164,783 C1168,620 1200,590 1300,590 L1450,590 C1505,590 1516,640 1516,798" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a45" d="M1151,783 C1150,595 1180,569 1260,569 L1400,569 C1437,569 1437,520 1437,448" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a46" d="M1126,790 C1105,700 1048,580 1000,514" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a47" d="M1141,785 C1130,700 1115,600 1112,504" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a48" d="M1157,388 L1157,338" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a49" d="M1534,800 L1534,560" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a50" d="M1564,800 Q1574,792 1574,775 L1574,592 Q1574,570 1596,570 L1639,570" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a51" d="M1571,813 L1639,641" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a52" d="M1571,823 L1639,756" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a53" d="M1571,833 L1639,861" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a54" d="M1571,842 L1639,940" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a55" d="M1476,845 C1470,898 1450,906 1395,906" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a56" d="M1395,783 C1430,786 1445,812 1461,820" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)" marker-start="url(#ah)"/>
+<path class="arr" data-id="a57" d="M1476,801 C1470,700 1450,666 1395,666" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path class="arr" data-id="a58" d="M1516,846 C1516,930 1430,940 1320,940 C1200,940 1170,922 1166,861" fill="none" stroke="#3F4B5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
 <rect class="card" x="1461.0" y="800.0" width="110.0" height="46.0" rx="10" fill="#F5F3FF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
 <g class="icon">
 <path d="M1475.6,820.0 v-4.4 a6.4,6.4 0 0 1 12.8,0 v4.4" fill="none" stroke="#5B21B6" stroke-width="2.6" stroke-linecap="round"/>
@@ -655,12 +656,12 @@
 </g>
 <text x="1500.0" y="822.0" font-size="16.00" font-weight="700" text-anchor="start" fill="#0F172A">Lockout</text>
 <text x="1500.0" y="839.0" font-size="12.50" font-weight="600" text-anchor="start" fill="#6D28D9">Mode</text>
-<defs><radialGradient id="ng60" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#334155"/><stop offset="1" stop-color="#0B1220"/></radialGradient></defs>
+<defs><radialGradient id="ng59" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#334155"/><stop offset="1" stop-color="#0B1220"/></radialGradient></defs>
 <ellipse cx="679.0" cy="821.0" rx="55.0" ry="41.0" fill="none" stroke="#FACC15" stroke-width="4" stroke-opacity="0.45"/>
-<ellipse class="card node" cx="679.0" cy="821.0" rx="52.0" ry="38.0" fill="url(#ng60)" filter="url(#sh2)"/>
+<ellipse class="card node" cx="679.0" cy="821.0" rx="52.0" ry="38.0" fill="url(#ng59)" filter="url(#sh2)"/>
 <text x="679.0" y="833.2" font-size="34.00" font-weight="800" text-anchor="middle" fill="#FFFFFF" letter-spacing="0.5">ON</text>
-<defs><radialGradient id="ng61" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#334155"/><stop offset="1" stop-color="#0B1220"/></radialGradient></defs>
-<ellipse class="card node" cx="1155.0" cy="821.0" rx="54.0" ry="38.0" fill="url(#ng61)" filter="url(#sh2)"/>
+<defs><radialGradient id="ng60" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#334155"/><stop offset="1" stop-color="#0B1220"/></radialGradient></defs>
+<ellipse class="card node" cx="1155.0" cy="821.0" rx="54.0" ry="38.0" fill="url(#ng60)" filter="url(#sh2)"/>
 <text x="1155.0" y="833.2" font-size="34.00" font-weight="800" text-anchor="middle" fill="#FFFFFF" letter-spacing="0.5">OFF</text>
 <text x="1988.0" y="1340.0" font-size="10.00" font-weight="400" text-anchor="end" fill="#64748B">Layout after the original Andúril 2 diagrams (lemmy.world/post/1038159) · redrawn &amp; updated 2026-11</text>
 <g class="pillg" data-id="a5" data-label="2C">
@@ -752,133 +753,129 @@
 <rect x="543.7" y="810.0" width="32.7" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="560.0" y="826.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">3C</text>
 </g>
-<g class="pillg" data-id="a28" data-label="4H">
-<rect x="412.6" y="890.2" width="33.2" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
-<text x="429.2" y="906.3" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">4H</text>
+<g class="pillg" data-id="a28" data-label="3H · 4H · 8H">
+<rect x="383.5" y="891.1" width="94.9" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
+<text x="431.0" y="907.1" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">3H · 4H · 8H</text>
 </g>
-<g class="pillg" data-id="a29" data-label="3H">
-<rect x="228.6" y="732.0" width="32.8" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
-<text x="245.0" y="748.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">3H</text>
-</g>
-<g class="pillg" data-id="a30" data-label="1C">
+<g class="pillg" data-id="a29" data-label="1C">
 <rect x="902.2" y="810.0" width="29.7" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="917.0" y="826.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">1C</text>
 </g>
-<g class="pillg" data-id="a31" data-label="5C">
+<g class="pillg" data-id="a30" data-label="5C">
 <rect x="725.5" y="867.0" width="32.6" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="741.8" y="883.1" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">5C</text>
 </g>
-<g class="pillg" data-id="a32" data-label="10C">
+<g class="pillg" data-id="a31" data-label="10C">
 <rect x="1049.3" y="766.4" width="39.1" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1068.9" y="782.4" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">10C</text>
 </g>
-<g class="pillg" data-id="a33" data-label="5C">
+<g class="pillg" data-id="a32" data-label="5C">
 <rect x="1003.9" y="861.5" width="32.6" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1020.2" y="877.5" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">5C</text>
 </g>
-<g class="pillg" data-id="a34" data-label="3H">
+<g class="pillg" data-id="a33" data-label="3H">
 <rect x="576.3" y="933.6" width="127.8" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="583.0" y="949.7" font-size="14.00" font-weight="700" text-anchor="start" fill="#0F172A">3H</text>
 <text x="606.7" y="949.2" font-size="10.08" font-weight="500" text-anchor="start" fill="#64748B">(mode memorized)</text>
 </g>
-<g class="pillg" data-id="a35" data-label="7C / 8H★">
+<g class="pillg" data-id="a34" data-label="7C / 8H★">
 <rect x="904.6" y="1004.2" width="78.1" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="943.6" y="1020.3" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">7C / 8H</text>
 </g>
-<g class="pillg" data-id="a36" data-label="7H">
+<g class="pillg" data-id="a35" data-label="7H">
 <rect x="925.4" y="1107.9" width="31.9" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="941.3" y="1123.9" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">7H</text>
 </g>
-<g class="pillg" data-id="a37" data-label="15+C">
+<g class="pillg" data-id="a36" data-label="15+C">
 <rect x="924.2" y="1217.8" width="48.1" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="948.3" y="1233.9" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">15+C</text>
 </g>
-<g class="pillg" data-id="a38" data-label="13H">
+<g class="pillg" data-id="a37" data-label="13H">
 <rect x="927.6" y="1283.8" width="38.8" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="947.0" y="1299.9" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">13H</text>
 </g>
-<g class="pillg" data-id="a39" data-label="3C">
+<g class="pillg" data-id="a38" data-label="3C">
 <rect x="1233.7" y="965.0" width="32.7" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1250.0" y="981.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">3C</text>
 </g>
-<g class="pillg" data-id="a40" data-label="1H">
+<g class="pillg" data-id="a39" data-label="1H">
 <rect x="1219.9" y="891.5" width="29.8" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1234.8" y="907.5" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">1H</text>
 </g>
-<g class="pillg" data-id="a41" data-label="1C">
+<g class="pillg" data-id="a40" data-label="1C">
 <rect x="1237.1" y="778.9" width="29.7" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1251.9" y="794.9" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">1C</text>
 </g>
-<g class="pillg" data-id="a42" data-label="2C">
+<g class="pillg" data-id="a41" data-label="2C">
 <rect x="1208.5" y="706.0" width="32.5" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1224.8" y="722.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">2C</text>
 </g>
-<g class="pillg" data-id="a43" data-label="2H">
+<g class="pillg" data-id="a42" data-label="2H">
 <rect x="1238.1" y="626.8" width="32.6" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1254.4" y="642.8" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">2H</text>
 <text x="1254.4" y="622.8" font-size="11.20" font-weight="500" text-anchor="middle" fill="#64748B" stroke="#F3F5F9" stroke-width="4" stroke-linejoin="round" paint-order="stroke">(momentary)</text>
 </g>
-<g class="pillg" data-id="a44" data-label="2C">
+<g class="pillg" data-id="a43" data-label="2C">
 <rect x="1250.0" y="725.9" width="32.5" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1266.3" y="742.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">2C</text>
 </g>
-<g class="pillg" data-id="a45" data-label="4C">
+<g class="pillg" data-id="a44" data-label="4C">
 <rect x="1326.4" y="579.0" width="33.1" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1343.0" y="595.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">4C</text>
 </g>
-<g class="pillg" data-id="a46" data-label="9H">
+<g class="pillg" data-id="a45" data-label="9H">
 <rect x="1236.5" y="558.1" width="32.9" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1252.9" y="574.1" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">9H</text>
 </g>
-<g class="pillg" data-id="a47" data-label="10H">
+<g class="pillg" data-id="a46" data-label="10H">
 <rect x="1054.9" y="635.0" width="39.2" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1074.5" y="651.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">10H</text>
 </g>
-<g class="pillg" data-id="a48" data-label="6C">
+<g class="pillg" data-id="a47" data-label="6C">
 <rect x="1108.6" y="650.4" width="32.7" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1125.0" y="666.5" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">6C</text>
 </g>
-<g class="pillg" data-id="a49" data-label="7H">
+<g class="pillg" data-id="a48" data-label="7H">
 <rect x="1141.0" y="352.0" width="31.9" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1157.0" y="368.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">7H</text>
 </g>
-<g class="pillg" data-id="a50" data-label="3H">
+<g class="pillg" data-id="a49" data-label="3H">
 <rect x="1517.6" y="679.0" width="32.8" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1534.0" y="695.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">3H</text>
 </g>
-<g class="pillg" data-id="a51" data-label="10H">
+<g class="pillg" data-id="a50" data-label="10H">
 <rect x="1554.4" y="669.0" width="39.2" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1574.0" y="685.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">10H</text>
 </g>
-<g class="pillg" data-id="a52" data-label="7C">
+<g class="pillg" data-id="a51" data-label="7C">
 <rect x="1594.6" y="702.0" width="31.8" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1610.5" y="718.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">7C</text>
 </g>
-<g class="pillg" data-id="a53" data-label="7H">
+<g class="pillg" data-id="a52" data-label="7H">
 <rect x="1592.3" y="775.3" width="31.9" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1608.2" y="791.4" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">7H</text>
 </g>
-<g class="pillg" data-id="a54" data-label="1H">
+<g class="pillg" data-id="a53" data-label="1H">
 <rect x="1593.4" y="837.3" width="29.8" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1608.3" y="853.4" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">1H</text>
 </g>
-<g class="pillg" data-id="a55" data-label="2H">
+<g class="pillg" data-id="a54" data-label="2H">
 <rect x="1591.9" y="884.5" width="32.6" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1608.1" y="900.6" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">2H</text>
 </g>
-<g class="pillg" data-id="a56" data-label="4H">
+<g class="pillg" data-id="a55" data-label="4H">
 <rect x="1422.7" y="890.9" width="33.2" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1439.3" y="907.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">4H</text>
 </g>
-<g class="pillg" data-id="a57" data-label="4C">
+<g class="pillg" data-id="a56" data-label="4C">
 <rect x="1410.1" y="782.7" width="33.1" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1426.7" y="798.7" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">4C</text>
 </g>
-<g class="pillg" data-id="a58" data-label="5C">
+<g class="pillg" data-id="a57" data-label="5C">
 <rect x="1441.2" y="691.3" width="32.6" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1457.5" y="707.4" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">5C</text>
 </g>
-<g class="pillg" data-id="a59" data-label="3C">
+<g class="pillg" data-id="a58" data-label="3C">
 <rect x="1313.5" y="929.0" width="32.7" height="22.0" rx="11.0" fill="#FFFFFF" stroke="#B8C3D3" stroke-width="1"/>
 <text x="1329.8" y="945.0" font-size="14.00" font-weight="700" text-anchor="middle" fill="#0F172A">3C</text>
 </g></svg>

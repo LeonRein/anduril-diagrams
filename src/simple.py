@@ -91,7 +91,7 @@ S.text(680, 550, "MODEL-YYYY-MM-DD(-SINCE-DIRTY)", size=17, weight=600, fill=BOD
 S.text(680, 578, V("Brand+Product ID · Year · Month · Day", "E12 with this release: 0453-2026-10-26"), size=17, fill=MUTED, anchor="end")
 
 S.card(16, 620, 288, 288, "Next Channel Mode", "mode", tsize=24)
-S.text(30, 686, V("(3C to cycle)", "(3C, enabled channels only)"), size=17, fill=MUTED)
+S.text(30, 686, V("(3C to cycle, stays in Ramp)", "(3C to cycle, stays in Ramp)"), size=17, fill=MUTED)
 S.para(34, 722, V([
     "• Channel 1",
     "• Channel 2",
@@ -157,7 +157,7 @@ A("M448,710 L308,710", "3C", (378, 710), lsize=PL)
 A("M594,710 L768,710", "1C", (681, 710), lsize=PL, start=True)
 A("M918,710 L1056,710", "1C", (987, 710), lsize=PL, start=True)
 A("M1208,710 L1314,710", "4C", (1261, 710), lsize=PL, start=True)
-A("M306,790 C345,800 362,860 410,880", "3H", (352, 828), lsize=PL)
+A("M520,768 L520,830", "3H", 0.5, lsize=PL)
 # OFF top, left→right: 15+C, 13H, 4C, 2C, 2H
 A("M814,660 C800,600 770,540 702,540", "15+C", 0.6, lsize=PL)
 A("M826,658 C815,520 780,430 702,430", "13H", 0.72, lsize=PL)
