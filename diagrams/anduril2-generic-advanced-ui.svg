@@ -206,15 +206,16 @@
 <rect class="card" x="1305.0" y="27.0" width="313.0" height="143.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
 <path d="M1305.5,32.0 Q1305.5,27.5 1317.0,27.5 H1606.0 Q1617.5,27.5 1617.5,32.0 V32.0 H1305.5 Z" fill="#64748B"/>
 <text x="1319.0" y="57.0" font-size="18.00" font-weight="650" text-anchor="start" fill="#0F172A">Actions</text>
-<text x="1319.0" y="78.0" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">1C:</tspan> Click</text>
-<text x="1319.0" y="95.6" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">1H:</tspan> Hold</text>
-<text x="1319.0" y="113.2" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">2C:</tspan> Click, Click</text>
-<text x="1319.0" y="130.8" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">2H:</tspan> Click, Hold</text>
-<text x="1455.0" y="78.0" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">nC / nH:</tspan> n presses</text>
-<text x="1455.0" y="95.6" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">Number entry in menus:</tspan></text>
-<text x="1455.0" y="113.2" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Click</tspan> = +1</text>
-<text x="1455.0" y="130.8" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Hold</tspan> = +10</text>
-<text x="1319.0" y="158.0" font-size="12.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">Ovals &amp; lock = modes · boxes = actions / menus</tspan></text>
+<text x="1319.0" y="74.0" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">1C:</tspan> Click</text>
+<text x="1319.0" y="91.6" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">1H:</tspan> Hold</text>
+<text x="1319.0" y="109.2" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">2C:</tspan> Click, Click</text>
+<text x="1319.0" y="126.8" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">2H:</tspan> Click, Hold</text>
+<text x="1455.0" y="74.0" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">nC / nH:</tspan> n presses</text>
+<text x="1455.0" y="91.6" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">Number entry in menus:</tspan></text>
+<text x="1455.0" y="109.2" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Click</tspan> = +1</text>
+<text x="1455.0" y="126.8" font-size="13.00" font-weight="400" text-anchor="start" fill="#334155"><tspan font-weight="650" fill="#0F172A">Hold</tspan> = +10</text>
+<text x="1319.0" y="146.0" font-size="12.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">Ovals &amp; lock = modes · boxes = actions / menus</tspan></text>
+<text x="1319.0" y="161.0" font-size="12.00" font-weight="400" text-anchor="start" fill="#334155"><tspan fill="#64748B">ON = Ramp: same mode, the bar shows its levels</tspan></text>
 <rect class="card" x="1305.0" y="182.0" width="313.0" height="262.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
 <path d="M1305.5,187.0 Q1305.5,182.5 1317.0,182.5 H1606.0 Q1617.5,182.5 1617.5,187.0 V187.0 H1305.5 Z" fill="#6366F1"/>
 <text x="1319.0" y="212.0" font-size="18.00" font-weight="650" text-anchor="start" fill="#0F172A">Misc Config</text>
@@ -413,6 +414,7 @@
 <rect class="card" x="847.0" y="752.0" width="193.0" height="40.0" rx="12" fill="#FFFFFF" stroke="#D5DCE6" stroke-width="1" filter="url(#sh)"/>
 <text x="943.0" y="778.0" font-size="18.00" font-weight="650" text-anchor="middle" fill="#0F172A">Switch to Simple UI</text>
 <defs><linearGradient id="rb4" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#FEF9C3"/><stop offset="0.45" stop-color="#FDE68A"/><stop offset="1" stop-color="#64748B"/></linearGradient></defs>
+<rect x="1294.0" y="615.0" width="101.0" height="294.0" rx="13.0" fill="none" stroke="#FACC15" stroke-width="4" stroke-opacity="0.45"/>
 <rect class="card" x="1297" y="618" width="95" height="288" rx="10" fill="url(#rb4)" stroke="#94A3B8" filter="url(#sh)"/>
 <path d="M1297.5,658 V628 Q1297.5,618.5 1307,618.5 H1382 Q1391.5,618.5 1391.5,628 V658 Z" fill="#F97316"/>
 <line x1="1297" y1="658" x2="1392" y2="658" stroke="#FFFFFF" stroke-width="2"/>
@@ -675,7 +677,8 @@
 <defs><radialGradient id="ng59" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#334155"/><stop offset="1" stop-color="#0B1220"/></radialGradient></defs>
 <ellipse cx="679.0" cy="821.0" rx="55.0" ry="41.0" fill="none" stroke="#FACC15" stroke-width="4" stroke-opacity="0.45"/>
 <ellipse class="card node" cx="679.0" cy="821.0" rx="52.0" ry="38.0" fill="url(#ng59)" filter="url(#sh2)"/>
-<text x="679.0" y="833.2" font-size="34.00" font-weight="800" text-anchor="middle" fill="#FFFFFF" letter-spacing="0.5">ON</text>
+<text x="679.0" y="826.4" font-size="34.00" font-weight="800" text-anchor="middle" fill="#FFFFFF" letter-spacing="0.5">ON</text>
+<text x="679.0" y="842.1" font-size="10.88" font-weight="600" text-anchor="middle" fill="#FDE68A">Ramp mode</text>
 <defs><radialGradient id="ng60" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#334155"/><stop offset="1" stop-color="#0B1220"/></radialGradient></defs>
 <ellipse class="card node" cx="1155.0" cy="821.0" rx="54.0" ry="38.0" fill="url(#ng60)" filter="url(#sh2)"/>
 <text x="1155.0" y="833.2" font-size="34.00" font-weight="800" text-anchor="middle" fill="#FFFFFF" letter-spacing="0.5">OFF</text>

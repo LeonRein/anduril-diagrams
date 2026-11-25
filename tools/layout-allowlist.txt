@@ -20,3 +20,6 @@ arrow×arrow | 2C[1192,793→1292,666] × 2C[1294,772→1294,642]
 pill×pill | 2H / 2C
 pill×shape | 2H over ellipse @768,656
 pill×shape | 2C over rect @1060,490
+
+# ON node with "Ramp mode" caption: only the line boxes overlap
+text×text | "ON" / "Ramp mode"

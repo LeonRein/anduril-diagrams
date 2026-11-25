@@ -39,6 +39,7 @@ Simple UI aktiv · gestufte Rampe (Simple UI: 10–130, 5 Stufen) · 2C geht im 
 ## Darstellung
 - 3H / 4H / 8H werden im Ramp-Modus gedrückt; ihre Wirkung hängt nur vom aktiven Kanal ab. Deshalb gehen sie im Diagramm direkt von ON aus (Kasten „Hold in Ramp“), nicht vom Kasten „Next Channel Mode“. 3C schaltet nur den Kanal um, die Lampe bleibt im Ramp-Modus.
 - Ovale und das Schloss sind Modi, Kästen sind Aktionen oder Menüs.
+- ON und der Ramp-Balken sind derselbe Modus (`steady_state`). Das ON-Oval trägt die Aktionen, der Balken zeigt die Helligkeitsstufen und auf welcher Stufe man von OFF/Lockout aus landet. Beide tragen deshalb denselben gelben Rahmen, und ON ist mit „Ramp mode“ beschriftet.
 
 ## Varianten der Diagramme
 - `anduril2-e12-*`: zugeschnitten auf die Fireflies E12 Eclipse (Lume10, 0453): echte Kanalliste (Main, HSV, 7 Aux-Farben), 3H = Momentary Turbo bzw. Farbton im HSV-Kanal, Werkseinstellungen, Tactical-Slots 153–156 ausgeschrieben, keine Hinweise auf Mehrkanal-/200%-Funktionen.

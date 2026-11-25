@@ -239,7 +239,7 @@ class SVG:
         for i, l in enumerate(ls):
             self.text(cx, y0 + i * size * 1.16, l, size=size, weight=600, fill=INK, anchor="middle")
 
-    def node(self, cx, cy, rx, ry, label, size=34, glow=None):
+    def node(self, cx, cy, rx, ry, label, size=34, glow=None, sub=None):
         gid = self.nid("ng")
         self.add('<defs><radialGradient id="%s" cx="50%%" cy="35%%" r="70%%">'
                  '<stop offset="0" stop-color="#334155"/><stop offset="1" stop-color="#0B1220"/></radialGradient></defs>' % gid)
@@ -247,7 +247,16 @@ class SVG:
             self.add('<ellipse cx="%.1f" cy="%.1f" rx="%.1f" ry="%.1f" fill="none" stroke="%s" stroke-width="4" stroke-opacity="0.45"/>' % (
                 cx, cy, rx + 3, ry + 3, glow))
         self.add('<ellipse class="card node" cx="%.1f" cy="%.1f" rx="%.1f" ry="%.1f" fill="url(#%s)" filter="url(#sh2)"/>' % (cx, cy, rx, ry, gid))
-        self.text(cx, cy + size * 0.36, label, size=size, weight=800, fill="#FFFFFF", anchor="middle", ls="0.5")
+        if sub:
+            self.text(cx, cy + size * 0.16, label, size=size, weight=800, fill="#FFFFFF", anchor="middle", ls="0.5")
+            self.text(cx, cy + size * 0.62, sub, size=size * 0.32, weight=600, fill="#FDE68A", anchor="middle")
+        else:
+            self.text(cx, cy + size * 0.36, label, size=size, weight=800, fill="#FFFFFF", anchor="middle", ls="0.5")
+
+    def glow_rect(self, x, y, w, h, r, glow="#FACC15"):
+        """Same yellow ring as the ON node, to show that the ramp bar is the ON state."""
+        self.add('<rect x="%.1f" y="%.1f" width="%.1f" height="%.1f" rx="%.1f" fill="none" stroke="%s" '
+                 'stroke-width="4" stroke-opacity="0.45"/>' % (x - 3, y - 3, w + 6, h + 6, r + 3, glow))
 
     # ------------------------------------------------------------ arrows
     def arrow(self, d, label=None, at=None, start=False, end=True, sub=None, lsize=14,

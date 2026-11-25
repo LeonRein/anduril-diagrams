@@ -38,18 +38,20 @@ S.para(500, 144, [
 
 # ---------------------------------------------------------------- actions
 S.card(1000, 40, 476, 214, "Actions", "info", tsize=24)
-S.para(1014, 116, [
+S.para(1014, 110, [
     "**1C:** Click",
     "**1H:** Hold",
     "**2C:** Click, Click",
     "**2H:** Click, Hold",
-], size=B, lh=30)
-S.para(1232, 116, [
+], size=B, lh=26)
+S.para(1232, 110, [
     "**nC / nH:** n presses",
     "__Number entry in menus:__",
     "**Click** = +1",
     "**Hold** = +10",
-], size=B, lh=30)
+], size=B, lh=26)
+S.text(1014, 214, "__Ovals & lock = modes · boxes = actions / menus__", size=16)
+S.text(1014, 236, "__ON = Ramp: same mode, the bar shows its levels__", size=16)
 
 # ---------------------------------------------------------------- title
 S.card(1504, 40, 528, 494, None, "#0F172A")
@@ -133,6 +135,7 @@ gid = S.nid("rb")
 S.add('<defs><linearGradient id="%s" x1="0" x2="0" y1="0" y2="1">'
       '<stop offset="0" stop-color="#FEF9C3"/><stop offset="0.45" stop-color="#FDE68A"/>'
       '<stop offset="1" stop-color="#64748B"/></linearGradient></defs>' % gid)
+S.glow_rect(1060, 490, 144, 434, 14)
 S.add('<rect class="card" x="1060" y="490" width="144" height="434" rx="14" fill="url(#%s)" stroke="#94A3B8" filter="url(#sh)"/>' % gid)
 S.text(1132, 522, "Ceiling", size=19, weight=650, fill=INK, anchor="middle")
 S.text(1132, 912, "Floor", size=19, weight=650, fill="#FFFFFF", anchor="middle")
@@ -184,7 +187,7 @@ S.card(1316, 690, 152, 58, None, "lock", r=12, fill="#F5F3FF", strip=False)
 S.lock(1344, 717, 28, col="#5B21B6")
 S.text(1368, 716, "Lockout", size=21, weight=700, fill=INK)
 S.text(1368, 738, "Mode", size=17, weight=600, fill="#6D28D9")
-S.node(520, 710, 74, 54, "ON", size=50, glow="#FACC15")
+S.node(520, 710, 74, 54, "ON", size=50, glow="#FACC15", sub="Ramp mode")
 S.node(844, 710, 76, 54, "OFF", size=50)
 
 S.text(2036, 1112, "Based on the Andúril 2 diagrams by containerfan (github.com/containerfan/anduril2-diagrams) · redrawn & updated 2026-11 · GPL-3.0",

@@ -190,19 +190,20 @@ S.para(1045, 229, [
 
 # ---- Actions -------------------------------------------------------------
 S.card(1305, 27, 313, 143, "Actions", "info")
-S.para(1319, 78, [
+S.para(1319, 74, [
     "**1C:** Click",
     "**1H:** Hold",
     "**2C:** Click, Click",
     "**2H:** Click, Hold",
 ], size=FS, lh=LH)
-S.para(1455, 78, [
+S.para(1455, 74, [
     "**nC / nH:** n presses",
     "__Number entry in menus:__",
     "**Click** = +1",
     "**Hold** = +10",
 ], size=FS, lh=LH)
-S.text(1319, 158, "__Ovals & lock = modes · boxes = actions / menus__", size=12)
+S.text(1319, 146, "__Ovals & lock = modes · boxes = actions / menus__", size=12)
+S.text(1319, 161, "__ON = Ramp: same mode, the bar shows its levels__", size=12)
 
 # ---- Misc Config ---------------------------------------------------------
 S.card(1305, 182, 313, 262, "Misc Config", "config", sub=None)
@@ -378,6 +379,7 @@ gid = S.nid("rb")
 S.add('<defs><linearGradient id="%s" x1="0" x2="0" y1="0" y2="1">'
       '<stop offset="0" stop-color="#FEF9C3"/><stop offset="0.45" stop-color="#FDE68A"/>'
       '<stop offset="1" stop-color="#64748B"/></linearGradient></defs>' % gid)
+S.glow_rect(1297, 618, 95, 288, 10)
 S.add('<rect class="card" x="1297" y="618" width="95" height="288" rx="10" fill="url(#%s)" stroke="#94A3B8" filter="url(#sh)"/>' % gid)
 S.add('<path d="M1297.5,658 V628 Q1297.5,618.5 1307,618.5 H1382 Q1391.5,618.5 1391.5,628 V658 Z" fill="#F97316"/>')
 S.add('<line x1="1297" y1="658" x2="1392" y2="658" stroke="#FFFFFF" stroke-width="2"/>')
@@ -588,7 +590,7 @@ S.card(1461, 800, 110, 46, None, "lock", r=10, fill="#F5F3FF", strip=False)
 S.lock(1482, 821, 20, col="#5B21B6")
 S.text(1500, 822, "Lockout", size=16, weight=700, fill=INK)
 S.text(1500, 839, "Mode", size=12.5, weight=600, fill="#6D28D9")
-S.node(679, 821, 52, 38, "ON", size=34, glow="#FACC15")
+S.node(679, 821, 52, 38, "ON", size=34, glow="#FACC15", sub="Ramp mode")
 S.node(1155, 821, 54, 38, "OFF", size=34)
 
 # ---- small footer -------------------------------------------------------
